@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>my Tasks</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- upper section  -->
+    <div class="main-container">
+      <section class="addTask">
+        <div class="tasks-header">✨ My Tasks</div>
+        <div class="input-section">
+          <input
+            id="taskInput"
+            class="addTask-input"
+            type="text"
+            placeholder="Add a new Task..."
+          />
+          <button class="add-btn" onclick="addTask()">Add</button>
+        </div>
+      </section>
+      <section class="todo-list">
+        <ul id="taskList" class="task-list"></ul>
+        <div id="stats" class="stats"></div>
+      </section>
+    </div>
+
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
